@@ -1,20 +1,78 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
 .container {
-    display: grid;
-    grid-template-areas: 'logo searchbar searchbar icons'
-                '. links links-two .'
-                '. results results .'
-                '. footer footer .';
+    width: 100%;
+    height: auto;
+   
+}
+#layer-one-nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    width: 100%;
+    max-height: 20%;
+    border: 3px dotted black;
+}
+#logo {
+    width: 200px;
+    height: auto;
+    
+    border: 3px dotted black;
+}
+#search-bar {
+    
+    background-color: red;
+    border: 3px dotted black;
+}
+#icons {
+   
+    background-color: yellow;
+    border: 3px dotted black;
+}
 
+#layer-two-nav {
+    background-color: #f2f2f2;
+    border: 3px dotted black;
 }
-.item1 {
-    grid-area: 
+#links-one {
+   
+    background-color: green;
 }
-.item2 {
-    grid-area:
+#links-two {
+   
+    background-color: yellowgreen;
 }
-.item3 {
-    grid-area:
+#results {
+    display: block;
+    background-color: purple;
+    border: 3px dotted black;
 }
-.item4 {
-    grid-area:
+footer {
+    border: 3px dotted black;
+    position: absolute;
+    background-color: black;
+    bottom: 0px;
+    width: 100%;
+    height: 2.5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li {
+    display: inline;
+    text-align: center;
+}
+li a {
+    
+    color: #000;
+    text-decoration: none;
 }
