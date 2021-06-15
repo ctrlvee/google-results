@@ -10,6 +10,7 @@ body {
    
 }
 #layer-one-nav {
+    position: sticky;
     display: flex;
     flex-direction: row;
     background-color: #f2f2f2;
@@ -34,6 +35,8 @@ body {
 }
 
 #search-bar {
+    margin-left: 2%;
+    margin-right: 0%;
     position: relative;
     display: flex;
     width: 50%;
@@ -53,17 +56,23 @@ body {
     top: 12px;
     right: 6px;
     width: 25px;
-    <!-- visibility: hidden; -->
+    
 }
 #icons {
-
-    display: flex;
+    position: absolute;
+    width:10%;
+    right: 0px;
     background-color: yellow;
-    border: 3px dotted black;
+    border: 0px dotted black;
 }
 
 #layer-two-nav {
-    width: 50%;
+    top: 15%;
+    position: absolute;
+    display: inline;
+    margin-right: 90%;
+    min-width: 30%;
+    max-width: 40%;
     background-color: #f2f2f2;
     border: 3px dotted black;
     margin-left: 20%;
@@ -74,11 +83,16 @@ body {
     
 }
 #spacer {
-    margin-left: 11%;
+    margin-left: 5%;
     margin-right: 0px;;
 }
 
 #results {
+    width:50%;
+    top: 30%;
+    margin-left: 18%;
+
+    position: absolute;
     display: block;
     background-color: purple;
     border: 3px dotted black;
