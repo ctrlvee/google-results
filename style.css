@@ -17,7 +17,7 @@ body {
     max-height: 20%;
     border: 3px dotted black;
     
-    margin-top: 25px;
+    margin-top: 3%;
 }
 #logo {
     width: 150px;
@@ -37,7 +37,7 @@ body {
     position: relative;
     display: flex;
     width: 50%;
-    background-color: red;
+  
     border: 3px dotted black;
 }
 
@@ -56,23 +56,28 @@ body {
     <!-- visibility: hidden; -->
 }
 #icons {
+
     display: flex;
     background-color: yellow;
     border: 3px dotted black;
 }
 
 #layer-two-nav {
+    width: 50%;
     background-color: #f2f2f2;
     border: 3px dotted black;
+    margin-left: 20%;
 }
 #links-one {
-   
-    background-color: green;
+    
+    display: inline;
+    
 }
-#links-two {
-   
-    background-color: yellowgreen;
+#spacer {
+    margin-left: 11%;
+    margin-right: 0px;;
 }
+
 #results {
     display: block;
     background-color: purple;
